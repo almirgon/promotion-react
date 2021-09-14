@@ -74,7 +74,7 @@ const Login = () => {
         <div className={"mobileBtn"}><button type="submit" className={"btn"}>Login</button></div>
       </Form>
       <div className={styles.forgot} >
-        <a onClick={goToForgot}>Esqueceu a senha? Clique Aqui</a>
+        <p onClick={goToForgot}>Esqueceu a senha? Clique Aqui</p>
       </div>
     </div>}
     {register ? <Register/> : <div className={styles.loginDiv}>
