@@ -50,7 +50,7 @@ const Promotion = () => {
   <div className="promotion">
     <Back/>
     <div className="myLike">
-      <Like likes={promotion.numberLikes}></Like >
+      <Like onClick={likePromotion} likes={promotion.numberLikes}></Like >
     </div>
     <div className="promotionImg">
       <img src={promotion.photo} alt="promotion"/>
