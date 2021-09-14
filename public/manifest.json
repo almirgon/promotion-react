@@ -12,7 +12,8 @@
     {
       "src": "logo192.png",
       "type": "image/png",
-      "sizes": "192x192"
+      "sizes": "192x192",
+      "purpose": "any"
     },
     {
       "src": "logo384.png",
@@ -22,7 +23,9 @@
     {
       "src": "logo128.png",
       "type": "image/png",
-      "sizes": "128x128"
+      "sizes": "128x128",
+      "purpose": "maskable"
+      
     },
     {
       "src": "logo192.png",
