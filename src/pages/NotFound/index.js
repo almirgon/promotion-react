@@ -3,7 +3,6 @@ import styles from './styles.module.css'
 import {useHistory} from 'react-router-dom';
 import error404 from '../../assets/gifs/error.gif'
 import Back from '../../components/Back';
-import {Animated} from "react-animated-css";
 
 const NotFound = () => {
   const history = useHistory()
